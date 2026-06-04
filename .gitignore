@@ -1,0 +1,18 @@
+# KiCad backup files
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups/
+_autosave-*
+*.lck
+*.000
+*.bak
+# Fabrication outputs
+gerbers/
+*.gbr
+*.drl
+*.pos
+*.csv
+*.xml
+# Plugins
+libraries/9.0/3rdparty/plugins/
+libraries/9.0/scripting/
