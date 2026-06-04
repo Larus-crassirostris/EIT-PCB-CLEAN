@@ -1,0 +1,114 @@
+(footprint "EBM02DRKN-S13_MaleConnection"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "093ba2ac-55d7-4bdb-91d6-4f9fb79fa6c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "EBM02DRKN-S13_MaleConnection"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "936bbfa7-7878-4211-94e3-e2b2b8f8bdf9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dac4a6e5-f9dc-4f59-86fd-59e16e0d0536")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d33af9e8-496d-4ee4-b0c6-c03dd7dfc508")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -6 3.5)
+		(end -6 11)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "9a7bd44d-800c-4af4-9da5-6873107e03d5")
+	)
+	(fp_line
+		(start -6 3.5)
+		(end 6 3.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "d483ecb4-ce27-4a7c-99cd-81b1fadcf7e6")
+	)
+	(fp_line
+		(start 6 3.5)
+		(end 6 11)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "88241fa7-cd3c-41db-9693-46e7530dc8e5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "dc59e7db-3404-4377-b394-39f7be4f2fbd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" connect roundrect
+		(at -1.98 7 180)
+		(size 2 7)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "de938765-7fa8-4ccd-a396-1bc6cabd62a2")
+	)
+	(pad "2" connect roundrect
+		(at 1.98 7 180)
+		(size 2 7)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "67b7fa6b-6f45-4c03-85eb-4728d0a5f82e")
+	)
+	(embedded_fonts no)
+)
