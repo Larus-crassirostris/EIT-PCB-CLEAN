@@ -8,6 +8,7 @@ _autosave-*
 *.bak
 # Fabrication outputs
 gerbers/
+jlcpcb/
 *.gbr
 *.drl
 *.pos
