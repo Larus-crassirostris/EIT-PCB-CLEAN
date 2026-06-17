@@ -1177,37 +1177,28 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "easyeda2kicad:AFA07-S16FCC-00"
+		(symbol "easyeda2kicad:FPCConnector18PUnderthenext1mm"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "FPC"
-				(at 0 12.7 0)
+			(property "Reference" "P"
+				(at 0 31.75 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "AFA07-S16FCC-00"
-				(at 0 -7.62 0)
+			(property "Value" "FPCConnector18PUnder the next 1mm"
+				(at 0 -31.75 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "easyeda2kicad:FPC-SMD_16P-P1.00_AFA07-S16FCC-00"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/FPC-Connectors_Made-in-China-FPC-1-0mmpitch-16P-Pull-type_C13744.html"
-				(at 0 -12.7 0)
+			(property "Footprint" "easyeda2kicad:FPC-SMD_18P-P1.00_AFA07-S18FCC-00"
+				(at 0 -34.29 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1215,7 +1206,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Datasheet" "https://lcsc.com/product-detail/FPC-Connectors_FPC-1-0mmpitch-18P-Pull-type-Under-the-next_C23826.html"
+				(at 0 -36.83 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "FPC 1.0mm 18P"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1225,7 +1225,7 @@
 				)
 			)
 			(property "Manufacturer" "JS(钜硕电子)"
-				(at 0 -15.24 0)
+				(at 0 -39.37 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1233,8 +1233,8 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "AFA07-S16FCC-00"
-				(at 0 -17.78 0)
+			(property "MPN" "AFA07-S18FCC-00"
+				(at 0 -41.91 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1242,8 +1242,8 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C13744"
-				(at 0 -20.32 0)
+			(property "LCSC Part" "C23826"
+				(at 0 -44.45 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1260,10 +1260,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "AFA07-S16FCC-00_0_1"
+			(symbol "FPCConnector18PUnderthenext1mm_0_1"
 				(rectangle
-					(start -24.13 2.54)
-					(end 24.13 -7.62)
+					(start -1.27 24.13)
+					(end 5.08 -24.13)
 					(stroke
 						(width 0)
 						(type default)
@@ -1272,27 +1272,20 @@
 						(type background)
 					)
 				)
-				(pin unspecified line
-					(at -29.21 -2.54 0)
-					(length 5.08)
-					(name "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+				(circle
+					(center 0 22.86)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
 					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+					(fill
+						(type none)
 					)
 				)
 				(pin unspecified line
-					(at -19.05 7.62 270)
-					(length 5.08)
+					(at -3.81 21.59 0)
+					(length 2.54)
 					(name "1"
 						(effects
 							(font
@@ -1309,8 +1302,8 @@
 					)
 				)
 				(pin unspecified line
-					(at -16.51 7.62 270)
-					(length 5.08)
+					(at -3.81 19.05 0)
+					(length 2.54)
 					(name "2"
 						(effects
 							(font
@@ -1327,8 +1320,8 @@
 					)
 				)
 				(pin unspecified line
-					(at -13.97 7.62 270)
-					(length 5.08)
+					(at -3.81 16.51 0)
+					(length 2.54)
 					(name "3"
 						(effects
 							(font
@@ -1345,8 +1338,8 @@
 					)
 				)
 				(pin unspecified line
-					(at -11.43 7.62 270)
-					(length 5.08)
+					(at -3.81 13.97 0)
+					(length 2.54)
 					(name "4"
 						(effects
 							(font
@@ -1363,8 +1356,8 @@
 					)
 				)
 				(pin unspecified line
-					(at -8.89 7.62 270)
-					(length 5.08)
+					(at -3.81 11.43 0)
+					(length 2.54)
 					(name "5"
 						(effects
 							(font
@@ -1381,8 +1374,8 @@
 					)
 				)
 				(pin unspecified line
-					(at -6.35 7.62 270)
-					(length 5.08)
+					(at -3.81 8.89 0)
+					(length 2.54)
 					(name "6"
 						(effects
 							(font
@@ -1399,8 +1392,8 @@
 					)
 				)
 				(pin unspecified line
-					(at -3.81 7.62 270)
-					(length 5.08)
+					(at -3.81 6.35 0)
+					(length 2.54)
 					(name "7"
 						(effects
 							(font
@@ -1417,8 +1410,8 @@
 					)
 				)
 				(pin unspecified line
-					(at -1.27 7.62 270)
-					(length 5.08)
+					(at -3.81 3.81 0)
+					(length 2.54)
 					(name "8"
 						(effects
 							(font
@@ -1435,8 +1428,8 @@
 					)
 				)
 				(pin unspecified line
-					(at 1.27 7.62 270)
-					(length 5.08)
+					(at -3.81 1.27 0)
+					(length 2.54)
 					(name "9"
 						(effects
 							(font
@@ -1453,8 +1446,8 @@
 					)
 				)
 				(pin unspecified line
-					(at 3.81 7.62 270)
-					(length 5.08)
+					(at -3.81 -1.27 0)
+					(length 2.54)
 					(name "10"
 						(effects
 							(font
@@ -1471,8 +1464,8 @@
 					)
 				)
 				(pin unspecified line
-					(at 6.35 7.62 270)
-					(length 5.08)
+					(at -3.81 -3.81 0)
+					(length 2.54)
 					(name "11"
 						(effects
 							(font
@@ -1489,8 +1482,8 @@
 					)
 				)
 				(pin unspecified line
-					(at 8.89 7.62 270)
-					(length 5.08)
+					(at -3.81 -6.35 0)
+					(length 2.54)
 					(name "12"
 						(effects
 							(font
@@ -1507,8 +1500,8 @@
 					)
 				)
 				(pin unspecified line
-					(at 11.43 7.62 270)
-					(length 5.08)
+					(at -3.81 -8.89 0)
+					(length 2.54)
 					(name "13"
 						(effects
 							(font
@@ -1525,8 +1518,8 @@
 					)
 				)
 				(pin unspecified line
-					(at 13.97 7.62 270)
-					(length 5.08)
+					(at -3.81 -11.43 0)
+					(length 2.54)
 					(name "14"
 						(effects
 							(font
@@ -1543,8 +1536,8 @@
 					)
 				)
 				(pin unspecified line
-					(at 16.51 7.62 270)
-					(length 5.08)
+					(at -3.81 -13.97 0)
+					(length 2.54)
 					(name "15"
 						(effects
 							(font
@@ -1561,8 +1554,8 @@
 					)
 				)
 				(pin unspecified line
-					(at 19.05 7.62 270)
-					(length 5.08)
+					(at -3.81 -16.51 0)
+					(length 2.54)
 					(name "16"
 						(effects
 							(font
@@ -1579,8 +1572,8 @@
 					)
 				)
 				(pin unspecified line
-					(at 29.21 -2.54 180)
-					(length 5.08)
+					(at -3.81 -19.05 0)
+					(length 2.54)
 					(name "17"
 						(effects
 							(font
@@ -1589,6 +1582,60 @@
 						)
 					)
 					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 -21.59 0)
+					(length 2.54)
+					(name "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 3.81 26.67 270)
+					(length 2.54)
+					(name "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 3.81 -26.67 90)
+					(length 2.54)
+					(name "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3168,6 +3215,18 @@
 		(color 0 0 0 0)
 		(uuid "f3039185-06e3-4ed3-93d9-9c6887e7783f")
 	)
+	(junction
+		(at 45.72 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f323b4f6-6949-4da9-a15a-dfc7184318e5")
+	)
+	(junction
+		(at 45.72 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9b5b47e-278a-4d95-be50-dfc13296867c")
+	)
 	(no_connect
 		(at 198.12 45.72)
 		(uuid "00e73331-8647-4e33-904b-a5104f87c0e6")
@@ -4092,7 +4151,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 78.74) (xy 43.18 81.28)
+			(xy 45.72 83.82) (xy 45.72 86.36)
 		)
 		(stroke
 			(width 0)
@@ -4792,6 +4851,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 132.08) (xy 55.88 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f0b85ff-63c0-4220-8bca-eaab3a09b021")
+	)
+	(wire
+		(pts
 			(xy 193.04 142.24) (xy 204.47 142.24)
 		)
 		(stroke
@@ -4829,6 +4898,16 @@
 			(type default)
 		)
 		(uuid "8594b414-da24-4d74-876b-147fea3e5bfa")
+	)
+	(wire
+		(pts
+			(xy 53.34 83.82) (xy 45.72 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85c45de5-b2d8-4902-8959-0da0463ba7f4")
 	)
 	(wire
 		(pts
@@ -4942,6 +5021,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 132.08) (xy 55.88 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99ac7ca4-3fc8-46c5-bf29-f1f404b18ff2")
+	)
+	(wire
+		(pts
 			(xy 76.2 129.54) (xy 86.36 129.54)
 		)
 		(stroke
@@ -4952,7 +5041,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 139.7) (xy 43.18 140.97)
+			(xy 45.72 139.7) (xy 45.72 140.97)
 		)
 		(stroke
 			(width 0)
@@ -5099,6 +5188,16 @@
 			(type default)
 		)
 		(uuid "aef512dd-4fca-4259-9af7-9c3616b4c803")
+	)
+	(wire
+		(pts
+			(xy 53.34 88.9) (xy 53.34 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af95fd44-604c-48fa-8aa0-32ad7df16a80")
 	)
 	(wire
 		(pts
@@ -5392,6 +5491,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 139.7) (xy 45.72 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da070729-6185-407a-92f4-f711e318f31e")
+	)
+	(wire
+		(pts
 			(xy 76.2 53.34) (xy 86.36 53.34)
 		)
 		(stroke
@@ -5599,6 +5708,16 @@
 			(type default)
 		)
 		(uuid "f5308786-2b54-416e-9b2c-211bde00b8fb")
+	)
+	(wire
+		(pts
+			(xy 45.72 137.16) (xy 45.72 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f70fef24-7ede-41b1-8ce0-64aeee632172")
 	)
 	(bus
 		(pts
@@ -6432,7 +6551,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 43.18 78.74 270)
+		(at 45.72 83.82 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6441,7 +6560,7 @@
 		(fields_autoplaced yes)
 		(uuid "0c271d95-d814-4663-84cd-0142f2af544e")
 		(property "Reference" "#PWR020"
-			(at 36.83 78.74 0)
+			(at 39.37 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6450,7 +6569,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 39.37 78.7399 90)
+			(at 41.91 83.8199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6459,7 +6578,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 78.74 0)
+			(at 45.72 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6468,7 +6587,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 78.74 0)
+			(at 45.72 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6477,7 +6596,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 78.74 0)
+			(at 45.72 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7893,6 +8012,157 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:FPCConnector18PUnderthenext1mm")
+		(at 49.53 110.49 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5b15b573-e70d-45d9-8a1a-9fd8e126a0f9")
+		(property "Reference" "P1"
+			(at 43.18 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FPCConnector18PUnder the next 1mm"
+			(at 43.18 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:FPC-SMD_18P-P1.00_AFA07-S18FCC-00"
+			(at 49.53 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/FPC-Connectors_FPC-1-0mmpitch-18P-Pull-type-Under-the-next_C23826.html"
+			(at 49.53 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "FPC 1.0mm 18P"
+			(at 49.53 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JS(钜硕电子)"
+			(at 49.53 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AFA07-S18FCC-00"
+			(at 49.53 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C23826"
+			(at 49.53 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "5faeda49-6460-4dc0-add3-4aae90eb19f3")
+		)
+		(pin "4"
+			(uuid "8092885f-6df8-4859-ac26-dbc7f2949665")
+		)
+		(pin "13"
+			(uuid "1efaef5e-a237-4a31-8ce7-d220f4411648")
+		)
+		(pin "2"
+			(uuid "d1df163f-40f2-4622-9696-f03d44d46173")
+		)
+		(pin "5"
+			(uuid "289c49c5-eeb2-4919-8088-a50b2d0c96af")
+		)
+		(pin "16"
+			(uuid "399754ea-ffb2-4692-856d-1d1aea7c6de1")
+		)
+		(pin "20"
+			(uuid "1a2b0d3f-9ad5-4469-9973-ddb15bf57be1")
+		)
+		(pin "3"
+			(uuid "c6ab875b-f5f5-44c4-a009-cf062cee1af1")
+		)
+		(pin "6"
+			(uuid "dd8b8201-9e82-42c8-ab24-57f78fa255b7")
+		)
+		(pin "9"
+			(uuid "94173fea-8554-4ffc-90f6-24c3154dcebb")
+		)
+		(pin "10"
+			(uuid "03e69c7d-4791-48b8-9bbe-6b85092b3eb7")
+		)
+		(pin "15"
+			(uuid "83eb64f4-44f5-4a8e-b685-a408384c38be")
+		)
+		(pin "11"
+			(uuid "7aa1bacb-3325-467d-b87a-39d4371b6d8f")
+		)
+		(pin "19"
+			(uuid "0a2670c4-7a32-421b-a65a-4bca5cfd1f3c")
+		)
+		(pin "18"
+			(uuid "233b92b0-ed44-4718-bcb3-6d6a112c6fa3")
+		)
+		(pin "1"
+			(uuid "638c6022-5fc2-44c3-89c0-f68bbe127850")
+		)
+		(pin "8"
+			(uuid "7bcab64c-ea91-4f79-b1ac-02c8d5ca6c67")
+		)
+		(pin "14"
+			(uuid "4c858f7b-eb7c-41e0-87fd-9d680f3f4aad")
+		)
+		(pin "17"
+			(uuid "f41a307a-26c2-4a06-9fb8-7957f0add080")
+		)
+		(pin "12"
+			(uuid "8e79cec2-9350-45af-81f3-9858499a6162")
+		)
+		(instances
+			(project ""
+				(path "/e5542335-9a9c-475b-927f-3f88279fb344"
+					(reference "P1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 278.13 85.09 180)
 		(unit 1)
@@ -8436,7 +8706,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 43.18 140.97 270)
+		(at 45.72 140.97 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8445,7 +8715,7 @@
 		(fields_autoplaced yes)
 		(uuid "a16145cc-53f9-4527-a10d-dd93db96960c")
 		(property "Reference" "#PWR021"
-			(at 36.83 140.97 0)
+			(at 39.37 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8454,7 +8724,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 39.37 140.9699 90)
+			(at 41.91 140.9699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8463,7 +8733,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 140.97 0)
+			(at 45.72 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8472,7 +8742,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 140.97 0)
+			(at 45.72 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8481,7 +8751,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 140.97 0)
+			(at 45.72 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9317,151 +9587,6 @@
 			(project "EIT_readout_v2"
 				(path "/e5542335-9a9c-475b-927f-3f88279fb344"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:AFA07-S16FCC-00")
-		(at 45.72 110.49 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e9ce5c91-b9e0-4da0-8643-a802aaafa2e2")
-		(property "Reference" "FPC1"
-			(at 36.83 109.2199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "AFA07-S16FCC-00"
-			(at 36.83 111.7599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:FPC-SMD_16P-P1.00_AFA07-S16FCC-00"
-			(at 35.56 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/FPC-Connectors_Made-in-China-FPC-1-0mmpitch-16P-Pull-type_C13744.html"
-			(at 33.02 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 45.72 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "JS(钜硕电子)"
-			(at 30.48 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "AFA07-S16FCC-00"
-			(at 27.94 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C13744"
-			(at 25.4 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "18"
-			(uuid "c1c42c1d-eda9-4566-8aa5-c1ab0f1c2319")
-		)
-		(pin "1"
-			(uuid "aa4ecef5-cb97-4085-981c-9423ac9c4541")
-		)
-		(pin "3"
-			(uuid "d14ed239-1c9a-41cb-9511-5fe0113a12a8")
-		)
-		(pin "4"
-			(uuid "ea5eebb7-dafa-4ec6-b8bc-e58ba41db7d4")
-		)
-		(pin "8"
-			(uuid "dfe75f89-9154-4c04-83e3-6ed5dd265dd6")
-		)
-		(pin "2"
-			(uuid "032779d5-e20b-4c0e-96a6-624e655f8e76")
-		)
-		(pin "15"
-			(uuid "f57ee8de-7e10-418f-8cd2-1b3f66a504d7")
-		)
-		(pin "11"
-			(uuid "4475bafc-8293-4eec-9f9e-2191fe3d1313")
-		)
-		(pin "16"
-			(uuid "a67e79c5-ee19-4d55-b2da-f49a61faad4d")
-		)
-		(pin "14"
-			(uuid "b4b18325-3a6c-4eaf-ada1-8257fda0c794")
-		)
-		(pin "10"
-			(uuid "328a6e13-525b-4456-a963-77f0cf01e224")
-		)
-		(pin "9"
-			(uuid "78bc4a0d-66c0-48c3-bf08-019ab5a3c19a")
-		)
-		(pin "13"
-			(uuid "7d6a9618-2dd1-4248-af45-3fced0a22d71")
-		)
-		(pin "5"
-			(uuid "93fbe685-9f7f-49d5-8553-19e3a60291ee")
-		)
-		(pin "7"
-			(uuid "8d8c29aa-2f2a-4a8b-ae27-06b14a59ad5c")
-		)
-		(pin "17"
-			(uuid "890df415-f088-41aa-9ecc-8cbe432ae6ec")
-		)
-		(pin "6"
-			(uuid "9d2aaeb0-f398-4ec2-a791-9c579f514b24")
-		)
-		(pin "12"
-			(uuid "0a52f3f3-80b6-4c71-b44c-af7a2316004e")
-		)
-		(instances
-			(project ""
-				(path "/e5542335-9a9c-475b-927f-3f88279fb344"
-					(reference "FPC1")
 					(unit 1)
 				)
 			)
